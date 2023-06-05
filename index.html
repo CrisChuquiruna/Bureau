@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Bureau</title>
+</head>
+<body>
+    <header class="head">
+        <div class="head__logo"></div>      
+        <ul class="head__navmap">
+            <li class="head_navmap__item"><a href="#home">Home</a></li>
+            <li class="head_navmap__item"><a href="#news">News</a></li>
+            <li class="head_navmap__item"><a href="#contact">Contact</a></li>
+            <li style="float:right" class="head_navmap__item"><a class="active" href="#about">About</a></li>
+        </ul>   
+    </header>
+    <div class="home" id="home"></div>
+    <div class="news" id="news"></div>
+    <div class="contact" id="contact">
+        <form>      
+            <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+            <input type="submit" value="SUBMIT"/>
+          </form>
+    </div>
+</body>
+</html>

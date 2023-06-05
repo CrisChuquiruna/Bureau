@@ -1,0 +1,38 @@
+/* a:link, a:visited,  a:hover, a:active
+{
+    color: var(--background-light);
+    text-decoration: none;
+} */
+
+.head__navmap {
+    width: 100%;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--celeste);
+
+    /* border-bottom: 0.1px solid white; */
+    position: fixed;
+}
+
+.head_navmap__item {
+    float: left;
+}
+
+.head_navmap__item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.head_navmap__item a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: var(--amarillo);
+}
