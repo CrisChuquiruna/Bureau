@@ -3,7 +3,9 @@
     color: var(--background-light);
     text-decoration: none;
 } */
-
+.head{
+    height: 44px;
+}
 .head__navmap {
     width: 100%;
 
@@ -30,7 +32,7 @@
 }
 
 .head_navmap__item a:hover:not(.active) {
-    background-color: #111;
+    background-color: var(--amarillo);
 }
 
 .active {

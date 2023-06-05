@@ -1,5 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap');
+
 :root{
     --celeste: #00aae4;
     --amarillo: #fcd249;    
-    --amarillo_oscuro: rgb(236, 199, 78);    
+    --amarillo_oscuro: rgb(236, 199, 78);
+    
+    --title_font: 'Bebas Neue', sans-serif;
+    --text_font:  'Roboto', sans-serif;
+}
+
+h1{
+    text-align:center;
+    color: white;
+    font-size: 80px;
+    font-family: var(--title_font);
+
+}
+p{
+    color: white;
+    margin: 40px;
+    font-family: var(--text_font);
+    font-weight: bold;
 }

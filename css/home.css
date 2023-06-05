@@ -1,5 +1,23 @@
 .home{
+    --tamano_header: 44px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - var(--tamano_header));
     background-color: var(--celeste);
+}
+
+.titulo{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+    height: 50%;
+    padding: 35px;
+
+    border-right: 1px solid white;
 }
